@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ecommerce product page</title>
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="container">
+            <header class="header flex">
+                <nav class="nav">
+                    <div class="nav__hamburger">
+                        <img src="images/icon-menu.svg" alt="menu">
+                    </div>
+                    <div class="nav__menu">
+                        <div class="nav__close">
+                            <img src="images/icon-close.svg" alt="Close">
+                        </div>
+                        <ul class="nav__list">
+                            <li><a href="#">Collections</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- ------------------------------------------------------ -->
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="sneeakers ">
+                    </a>
+                </div>
+                <div class="header__cart-icon">
+                    <img src="images/icon-cart.svg" alt="cart">
+                </div>
+                <div class="header__user-avatar">
+                    <img src="images/image-avatar.png" alt="User avatar">
+                </div>
+                
+                <div class="cart-content "> 
+                    <h3 class="cart-content__heading">Cart</h3>
+                    <div class="cart-content__empty">
+                        Your cart is empty.
+                    </div>
+                </div> 
+                </header>
+            </div>
+        
+    </div>
+    
+
+
+        <!-- ------------------------------------------------------ -->
+    <main>
+        <div class="slider-mob">
+                <div class="slider-mob__bar">
+
+                    <div class="slider-mob__item">
+                        <img src="images/image-product-1.jpg" alt="Product 1">
+                    </div>
+                    <div class="slider-mob__item">
+                        <img src="images/image-product-2.jpg" alt="Product 1">
+                    </div>
+                    <div class="slider-mob__item">
+                        <img src="images/image-product-3.jpg" alt="Product 1">
+                    </div>
+                    <div class="slider-mob__item">
+                        <img src="images/image-product-4.jpg" alt="Product 1">
+                    </div>
+
+                </div>
+
+                <div class="slider-mob__control">
+
+                    <div class="slider-mob__prev-btn">
+                        <img src="images/icon-previous.svg" alt="previous product" />
+                    </div>
+
+                    <div class="slider-mob__next-btn">
+                        <img src="images/icon-next.svg" alt="next product" />
+                    </div>
+                    
+                </div>
+        </div>
+
+
+            <!-- ------------------------------------------------------ -->
+
+
+        <div class="row flex">
+            <div class="slider-desktop">
+                <div class="slider-desktop__active-photo">
+                    <img src="images/image-product-1.jpg" alt="Product" />
+                </div>
+                <div class="slider-desktop__thumbnails">
+                    <div class="slider-desktop__thumb slider-desktop__thumb--active" data-src = "images/image-product-1.jpg"><img src="images/image-product-1-thumbnail.jpg" alt="product thumbnail"></div>
+                    <div class="slider-desktop__thumb" data-src = "images/image-product-2.jpg">
+                        <img src="images/image-product-2-thumbnail.jpg" alt="product thumbnail">
+                    </div>
+                    <div class="slider-desktop__thumb" data-src = "images/image-product-3.jpg">
+                        <img src="images/image-product-3-thumbnail.jpg" alt="product thumbnail">
+                    </div>
+                    <div class="slider-desktop__thumb" data-src = "images/image-product-4.jpg">
+                        <img src="images/image-product-4-thumbnail.jpg" alt="product thumbnail">
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------------------------------------------------------ -->
+
+            <div class="product-buy">
+                <span class="company-name">Sneaker company</span>
+                <h1 class="main-heading">Fall Limited Edition Sneakers</h1>
+                <p class="paragraph">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                    durable rubber outer sole, they’ll withstand everything the weather can offer.
+                </p>
+                <div class="product-buy__prices">
+                    <span class="product-buy__new-price">$125.00</span>
+                    <span class="product-buy__disc-percent">50%</span>
+                    <span class="product-buy__old-price">$250.00</span>
+                </div>
+                <div class="flex-parent">
+                    <div class="product-buy__quantity">
+                        <input type="number" name="product-quantity" id="product-quantity" value="0" />
+                        <div class="product-buy__increase-icon">
+                            <img src="images/icon-plus.svg" alt="plus"></div>
+                        <div class="product-buy__decrease-icon">
+                            <img src="images/icon-minus.svg" alt="minus"></div>
+                    </div>
+                    <button class="product-buy__add-cart">
+                        <img src="images/icon-cart.svg" alt="">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+                        <!-- --------------------------------------------------------------------- -->
+
+    
+   
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
